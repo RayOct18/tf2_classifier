@@ -1,0 +1,20 @@
+DATA:
+  train:
+    path: '/raid/rayxie/datasets/Dog_Cat_dataset/train/'
+    img_size: 256
+    channel: 3
+    batch: 32
+    train: True
+  val:
+    path: '/raid/rayxie/datasets/Dog_Cat_dataset/valid/'
+    img_size: 224
+    channel: 3
+    batch: 32
+
+MODEL:
+  image_size: 224
+  channel: 3
+
+TRAIN:
+  epochs: 100
+  lr: 0.001

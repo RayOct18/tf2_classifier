@@ -1,2 +1,5 @@
 __py*
 *.swp
+checkpoints/
+logs/
+tuner/
